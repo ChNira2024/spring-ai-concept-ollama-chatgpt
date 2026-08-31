@@ -32,7 +32,7 @@ public class AIService {
 
                 .system("""
                         You are a Senior Java Trainer.
-                        Explain everything with simple examples.
+                        Explain everything in details with simple examples.
                         Keep answers interview-oriented.
                         """)
 
