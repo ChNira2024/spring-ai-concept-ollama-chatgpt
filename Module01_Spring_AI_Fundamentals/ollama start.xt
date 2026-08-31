@@ -1,0 +1,30 @@
+Download Ollama in your local machine
+=====================================
+you must download and install the Ollama application locally on your machine first before running any terminal commands.
+Step 1: Install Ollama
+------------------------
+Download the official installer directly from ollama.com and run the setup file.   
+Linux: Open your terminal and run:
+Bash
+curl -fsSL https://ollama.com/install.sh | sh
+
+Windows: 
+Step 1: Download & Install
+Go to ollama.com/download/windows and download OllamaSetup.exe.
+Run the executable file to install Ollama.
+Once installed, Ollama automatically launches in the background (you will see an Ollama icon in your system tray near the clock).
+
+1. Start the Ollama Service: ollama serve
+
+2. Download and Run a Model : ollama run <model_name>
+
+3. List downloaded models: ollama list
+
+4. Stop a running model: ollama stop <model_name>
+
+
+=>check version of ollama: ollama --version
+=>Download a model without starting a chat immediately: ollama pull llama3.2
+=>Remove a downloaded model: ollama rm llama3.2
+=>Verify the Ollama Service in Web Browser. Since Ollama runs a local background server by default, open your web browser and navigate to: http://localhost:11434
+Expected Result: You will see a plain web page that says: Ollama is running
